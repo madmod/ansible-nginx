@@ -5,6 +5,5 @@
   - packages
 
 - name: enable service
-  service: name=nginx enabled=yes
+  service: name=nginx enabled=yes state=started
   notify: restart-nginx
-
